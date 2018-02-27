@@ -1,0 +1,88 @@
+body{
+    background: ##F0DFB4;
+    color:#000000;
+    font-size: 12px;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 500;
+    background: url('../images/blad.jpg')no-repeat center top fixed; 
+    background-size:cover; 
+
+}
+h1,h2,h3,h4{
+    font-size: 16px;
+    font-family: 'Sinoty', sans-serif;
+    font-weight: 600;
+}
+
+h1{
+    font-size: 44px;
+    font-weight: 700;
+    margin: 0 auto; 
+    border: 6px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    color: #2D590E;
+}
+
+h3{
+    color: #4D8C20;
+}
+
+strong{
+    font-size: 13px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    color: #52A517;
+}
+
+ul{
+    list-style-type: circle;
+    list-style-position: outside;
+
+}
+
+li{
+    margin: 9px 0px 0px 0px; 
+    width: 200px; 
+}
+
+.nav ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align: center; 
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 4px;
+  }
+
+.nav-item__link {
+   
+    display: block; 
+
+    padding: 4px 4px;
+    margin: 2px auto; 
+
+    background-color: #4D8C20;
+    color: #f1f1f1;
+
+    text-decoration: none; 
+    text-align: center;
+
+    font-size: 14px;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 800; 
+ 
+    border: 2px solid black;
+
+ }
+
+.nav-item__link:hover { 
+    background-color: #2D590E;
+}
