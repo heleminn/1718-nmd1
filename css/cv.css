@@ -1,13 +1,14 @@
 body{
-    background: ##F0DFB4;
+    background: whitesmoke;
     color:#000000;
     font-size: 12px;
     font-family: 'Helvetica', sans-serif;
     font-weight: 500;
-    background: url('../images/blad.jpg')no-repeat center top fixed; 
+   /* background: url('../images/blad.jpg')no-repeat center top fixed; */
     background-size:cover; 
-
 }
+
+
 h1,h2,h3,h4{
     font-size: 16px;
     font-family: 'Sinoty', sans-serif;
@@ -15,16 +16,15 @@ h1,h2,h3,h4{
 }
 
 h1{
-    font-size: 44px;
+    font-size: 34px;
     font-weight: 700;
-    margin: 0 auto; 
-    border: 6px solid black;
-    padding: 15px;
-    text-align: center;
+    margin: 0; 
+    padding: 10px 0;
+    text-align: left;
 }
 
 h2{
-    font-size: 30px;
+    font-size: 20px;
     color: #2D590E;
 }
 
@@ -39,50 +39,100 @@ strong{
     color: #52A517;
 }
 
-ul{
-    list-style-type: circle;
-    list-style-position: outside;
+/* NAVIGATIE */
 
+.nav_main ul{
+    list-style: none; 
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;
+    margin: 0; 
+    padding: 10px 0; 
 }
 
-li{
-    margin: 9px 0px 0px 0px; 
-    width: 200px; 
+.nav__item {
+    margin-right: 5px; 
 }
-
-.nav ul{
-    list-style:none;
-    margin:0;
-    padding:0;
-    text-align: center; 
-}
-
-.nav li {
-    display: inline-block;
-    margin-right: 4px;
-  }
 
 .nav-item__link {
-   
-    display: block; 
-
     padding: 4px 4px;
     margin: 2px auto; 
-
-    background-color: #4D8C20;
-    color: #f1f1f1;
+    color:black;
 
     text-decoration: none; 
     text-align: center;
 
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'Helvetica', sans-serif;
-    font-weight: 800; 
+    font-weight: 400; 
  
-    border: 2px solid black;
+    border: 1px solid black;
 
  }
 
 .nav-item__link:hover { 
-    background-color: #2D590E;
+    background-color: #52A517;
 }
+
+/*CARD */
+
+.card_row > div{
+    display: flex;
+    align-items: stretch; 
+}
+.card{
+    height: 200px;
+    position: relative; 
+    margin-bottom: 24px; 
+    background-color: rgba(150,150,150, 0.5)
+
+}
+
+.card_txt_container{
+    min-height: 100%; 
+    padding-top: 5px;
+    padding-left: 15px; 
+ 
+}
+
+.card_txt_container ul{
+    list-style:none; 
+    padding: 0; 
+}
+
+.vaardigheden__container{
+    background-color: none;
+    height: 50px; 
+    text-align: center; 
+}
+
+
+/* ASIDE TXT */
+.aside_txt ul{
+    list-style: none; 
+    padding: 0; 
+}
+
+.aside_txt_link{
+    text-indent: -2px;
+    font-size: 12px; 
+    margin-bottom: 20px;
+    margin-top: 20px;   
+}
+
+.year{
+    display: block;
+    position: relative; 
+    text-align: right; 
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+    
+  }
+
+  .aside_txt li {
+    border-bottom: solid black 1px;
+
+}
+  

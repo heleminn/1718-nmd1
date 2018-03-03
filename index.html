@@ -8,140 +8,167 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--Width of webpage is equal to width of device -->
         <link rel="stylesheet" href="css/cv.css">
+        <link rel="stylesheet" href="css/grid.css">
     </head>
     <!--Only one body - tag per html document--> 
-    <body>
+<body>
 
-    <h1>CURICCULUM VITAE</h1>
     <!-- Navigation -->
+
     <div class="grid__container">
-    <div class="grid__row">
-    <div class=" grid__column-4 grid__column-md-4">
-    <nav class="nav">
-            <ul>
-                <li class="nav-item">
-                    <a class="nav-item__link" href="#Personalia">Personalia</a><br />
-                </li>
-    
-                <li class="nav-item">
-                    <a class="nav-item__link" href="#Schoolloopbaan">Schoolloopbaan</a><br />
-                </li>   
-    
-                <li class="nav-item">
-                    <a class="nav-item__link" href="#Ervaring">Ervaring</a><br />
-                </li>
-    
-                <li class="nav-item">
-                    <a class="nav-item__link" href="#Vaardigheden">Vaardigheden</a><br />
-                </li>
+        <div class="grid__row">
+            <div class="grid__colmun-8 grid__column-md-8">
+                <h1>CURICCULUM VITAE</h1>
+            </div>
+            <div class="grid__column-4 grid__column-md-4">
+                <div class="nav_main">
+                    <ul>
+                        <li class="nav__item"><a class="nav-item__link" href="#Schoolloopbaan" alt="Schoolloopbaan" title="Schoolloopbaan">Schoolloopbaan</a><br /></li>
+                        <li class="nav__item"><a class="nav-item__link" href="#Karaktereigenschappen" alt="Karaktereigenschappen" title="Karaktereigenschappen">Karaktereigenschappen</a><br /></li>
+                        <li class="nav__item"><a class="nav-item__link" href="#Ervaring" alt="Ervaring" title="Ervaring">Ervaring</a><br /></li>
+                        <li class="nav__item"><a class="nav-item__link" href="#Hobby's" alt="Hobby's" title="Hobby's">Hobby's</a><br /></li>
+                        <li class="nav__item"><a class="nav-item__link" href="#Vaardigheden" alt="Vaardigheden" title="Vaardigheden">Vaardigheden</a><br /></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                <li class="nav-item">
-                    <a class="nav-item__link" href="#Karaktereigenschappen">Karaktereigenschappen</a><br />
-                </li>
-    
-                <li class="nav-item">
-                    <a class="nav-item__link" href="#Hobby's">Hobby's</a><br />
-                </li>
-    
-        </ul>
-    
-    </nav>
+    <!--PAGE CONTENT -->
+
+    <div class="grid__container">
+        <div class="grid__row">
+             <div class="grid__column-8 grid__column-md-8"> 
+                    <div class="main_img">
+                            <div class="main_img_box"> 
+                                    <img src="images/leeza-pritychenko-graphic-design-itsnicethat-list.gif" alt="..."> 
+                            </div>
+                            <div class="main_txt">
+                                    <h2>Hallo! Ik ben Helena</h2>
+                                    <p>Zever over mezelf .... </p>
+                            </div>
+                    </div>
+             </div>
+        
+         <!-- SCHOOLLOOPBAAN -->
+            <div class="grid__column-4 grid__column-md-4">
+            <div class="aside_txt">
+                <h2>Schoolloopbaan</h2>
+                <ul id="Schoolloopbaan">
+                    <li class="aside_txt_link">
+                        Bachelor in de grafische en digitale media - <strong>Cross Media Ontwerp</strong>
+                        <div class="year">2017 - heden: Arteveldehogeschool Gent</div>
+                    </li>
+                    <li class="aside_txt_link">
+                        Bachelor in het Communicatiemanagement - Afgestudeerd met <strong>onderscheiding</strong>
+                        <div class="year">2013 - 2017: Arteveldehogeschool Gent</div>
+                    </li>
+                    <li class="aside_txt_link">
+                            ASO: Diploma Economie Moderne Talen
+                        <div class="year">Voor 2013: Sint-Paulusinstituut Herzele</div>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div>  
+    <!--CARDS -->
+    <div class="grid__row card__row">
+    <!--CARD1-->
+        <div class="grid__column-4 grid__column-md-4">
+            <div class="card">
+                <div class="card_txt_container">
+                    <h2 id="Karaktereigenschappen">Karaktereigenschappen</h2>
+                    <ul>
+                        <li>Gemotiveerd</li>
+                        <li>Teamgericht</li>
+                        <li>Sociaal</li>
+                        <li>Gestructureerd</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <!--CARD2-->
+    <div class="grid__column-4 grid__column-md-4">
+            <div class="card">
+                <div class="card_txt_container">
+                    <h2 id="Ervaring">Ervaring</h2>
+                    <ul>
+                        <li>2017: Medewerker Knack Special bij Trefpunt vzw</li>
+                        <li>2017: Mede organisator Gentse Feesten 2017 bij Trefpunt vzw</li>
+                        <li>2013: Jurylid Herman De Croo-wedstrijd</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    <!--CARD3-->
+    <div class="grid__column-4 grid__column-md-4">
+            <div class="card">
+                <div class="card_txt_container">
+                    <h2 id="Hobby's">Hobby's</h2>
+                    <ul>
+                        <li>Toneel - Theater</li>
+                        <li>Volksdansen</li>
+                        <li>Muziek - Percussie</li>
+                        <li>Koken</li>
+                        <li>Lezen</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+
+    <div class="grid__row card__row">
+      <!--CARD4-->
+    <div class="grid__column-4 grid__column-md-4">
+            <div class="card">
+                <div class="card_txt_container">
+                    <h2 id="Vaardigheden">Vaardigheden</h2>
+                    <h3>Computer</h3>
+                    <p> <strong>Microsoft Office pakket</strong></p>
+                    <p> Word - Excel - PowerPoint </p>
+                    <p> <strong>Creative Cloud Adobe pakket</strong> </p>
+                    <p> InDesign - Photoshop - Illustrator</p>
+                </div>
+            </div>
+        </div>
+
+    <!--CARD5-->
+    <div class="grid__column-4 grid__column-md-4">
+            <div class="card">
+                <div class="card_txt_container">
+                    <h2 id="Vaardigheden">Vaardigheden</h2>
+                    <h3>Talen</h3>
+                         <ul> 
+                            <li>Nederlands</li>
+                            <li>Frans</li>
+                            <li>Engels</li>
+                            <li>Duits</li>
+                                
+                        </ul>                  
+                </div>
+            </div>
+        </div>
+
+    <!--CARD6-->
+    <div class="grid__column-4 grid__column-md-4">
+            <div class="card">
+                <div class="card_txt_container">
+                    <h2 id="Vaardigheden">Vaardigheden</h2>
+                    <h3>Andere</h3>
+                    <ul>
+                        <li>Wix</li>
+                        <li>Canva</li>
+                        <li>Pictochart</li>
+                        <li>Lightroom</li>
+                    
+                    </ul>
+            </div>
+        </div>
+
+
     </div>
     </div>
     </div>
-
-        <h2 id="Personalia">Personalia</h2>
-        <p> <strong>Naam:</strong> Minnaert</p>
-        <p> <strong>Voornaam:</strong> Helena</p>
-        <p> <strong>Geboortejaar:</strong> 12/14/1995</p>
-        <p> <strong>Adres:</strong> Molenstraat 29, 9950 Herzele</p>
-        <p> <strong>Contactgegevens:</strong> 
-            <address>
-            
-            <p> <a href="mailto:helena.minnaert@telenet.be"> helena.minnaert@telenet.be</a></p> 
-            <p> - 0474.33 46 36 </p>
-
-            </address>
-
-        <p> <strong>Burgerlijke stand:</strong> Ongehuwd </p>
-        <p> <strong>Rijbewijs:</strong> In bezit van een <strong>Rijbewijs B</strong></p>
-        
-        <h2 id="Schoolloopbaan">Schoolloopbaan</h2>
-        
-        <h3> 2017 - 2019: Arteveldehogeschool Gent </h3>
-        <p> Bachelor in de grafische en digitale media - <strong>Cross Media Ontwerp</strong> </p>
-        <h3> 2013 - 2017: Arteveldehogeschool Gent </h3>
-        <p> Bachelor in het Communicatiemanagement - Afgestudeerd met <strong>onderscheiding</strong></p>
-        <h3> Voor 2013: Sint-Paulusinstituut Herzele</h3>
-        <p> ASO: Diploma Economie Moderne Talen</p>
-
-        <h2 id="Ervaring">Ervaring</h2>
-
-        <h3>2017: Medewerker Knack Special</h3>
-        <h3>2017: Mede organisator Gentse Feesten 2017</h3>
-        <p>in Trefpunt vzw</p>
-
-        <h3>2013: Jurylid Herman De Croo-wedstrijd</h3>
-        
-        <h2 id="Vaardigheden">Vaardigheden</h2>
-
-        <h3> Computer</h3>
-
-        <p> <strong>Microsoft Office pakket</strong></p>
-        <p> Word - Excel - PowerPoint </p>
-        
-        <p> <strong>Creative Cloud Adobe pakket</strong> </p>
-        <p> InDesign - Photoshop - Illustrator</p>
-
-        <h3>Talen</h3>
-
-        <p>Nederlands: 
-            <ul>
-                <li>Moedertaal</li>
-            
-            </ul>
-        <p>Engels: 
-            <ul>
-                <li>Mondeling - Goed</li>
-                <li>Schriftelijk - Goed</li>
-                
-            </ul>
-        <p>Frans: 
-            <ul>
-                <li>Mondeling - Redelijk</li>
-                <li>Schriftelijk - Redelijk</li>
-            
-            </ul>
-
-        <p>Duits: 
-            <ul>
-                <li>Mondeling - Basis</li>
-                <li>Schriftelijk - Basis</li>
-                
-            </ul>
-        
-        <h3> Andere</h3>
-        <p> Canva - Wix - Piktochart</p>
-        
-        <h2 id="Karaktereigenschappen">Karaktereigenschappen</h2>
-        
-        <ul>
-            <li>Enthusiast</li>
-            <li>Teamgericht</li>
-            <li>Sociaal</li>
-            <li>Gestructureerd</li>
-        </ul>
-        
-        <h2 id="Hobby's"> Hobby's </h2>
-
-        <ul>
-            <li>Toneel - Theater</li>
-            <li>Volksdansen</li>
-            <li>Muziek - Percussie</li>
-            <li>Koken</li>
-            <li>Lezen</li>
-        </ul>
-        <script src="js/cv.js"></script>
-       
-    </body>
-</html>
+</body>
