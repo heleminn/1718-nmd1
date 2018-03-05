@@ -39,6 +39,12 @@ strong{
     color: #52A517;
 }
 
+main_txt p{
+    font-size: 14px;
+    font-weight: 400px;
+    padding: 10px; 
+}
+
 /* NAVIGATIE */
 
 .nav_main ul{
