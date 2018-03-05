@@ -39,10 +39,10 @@ strong{
     color: #52A517;
 }
 
-main_txt p{
+.main_txt p{
     font-size: 14px;
-    font-weight: 400px;
-    padding: 10px; 
+    font-weight: 600px;
+    padding: 0 40px 0 0; 
 }
 
 /* NAVIGATIE */
